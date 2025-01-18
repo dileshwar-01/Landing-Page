@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+} */
+html,body{
+line-height: 1.4;
+font-weight: 300;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:100%;
+ min-height: 100vh;
+   background-image: url(homePage.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+   
+}
+.texts{
+    color: white;
+max-width: 900px;
+margin: 0 auto;
+padding-top: 64px;
+padding-left: 16px;
+font-size: 30px;
+}
+.Hi{
+    font-size: 72px;
+}
+.contb{
+    padding: 20px;
+width: 100%;
+height: 279px;
+background-color: black;
+}
+.textb{
+    /* max-width: 1015px; */
+    color: white;
+   padding-top: 3rem;
+    margin: 0 auto; 
+    /* padding-left: 12rem; */
+    font-size: 60px; 
+    font-weight: 400; 
+    text-align: center;
+
+}
+.you{
+font-size: 100px;
+font-weight: 400;
+}
+
+/* .work{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+  
+}
+.cards{
+    width: 320px;
+    height:400px;
+    border-radius: 10px ;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+
+} */
+
+.cards{
+    display: flex;
+    flex-direction: column;
+   width: 320px;
+   height: 400px;
+   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+   border-radius: 10px;
+   transition: all 0.2s;
+   gap: 10px;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+   width: 1066px;
+   margin-top: 50px;
+   margin-left: 16rem;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 378px;
+    background-color: #515603;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 378px;
+    background-color: #722300;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.about p{
+    line-height: 20px;
+    font-weight: 400;
+}
+.about{
+    margin-top: 50px;
+    display: flex;
+}
+
+.text-about{
+    color: white;
+    padding: 60px;
+}
+
+footer{
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    height: 138px;
+    text-align: center;
+    font-size: 30px;
+}
